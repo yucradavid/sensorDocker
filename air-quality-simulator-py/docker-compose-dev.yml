@@ -1,0 +1,16 @@
+services:
+  air-quality-simulator-py:
+    build: .
+    container_name: air-quality-simulator-py-dev
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: ec-kafka:9092
+      KAFKA_TOPIC: calidad-aire-eventos
+      SENSOR_ID: sensor-simulado-bme680
+      ESTACION: Grupo 2 - Sensor Simulado
+      INTERVAL_SECONDS: 3
+    networks:
+      - ec-kafka-dev-net
+
+networks:
+  ec-kafka-dev-net:
+    external: true

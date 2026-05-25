@@ -1,0 +1,16 @@
+services:
+  air-ingest-api:
+    build: .
+    container_name: air-ingest-api-dev
+    ports:
+      - "8000:8000"
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: ec-kafka:9092
+      KAFKA_TOPIC: calidad-aire-eventos
+      ESTACION_DEFAULT: Grupo 2 - Sensor
+    networks:
+      - ec-kafka-dev-net
+
+networks:
+  ec-kafka-dev-net:
+    external: true
