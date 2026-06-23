@@ -1,0 +1,4 @@
+horizonte_minutos,horizonte_texto,filas_modelo,filas_train,filas_test,rmse,mae,r2,estado,observacion
+15,15 min,101,83,18,2.5935438811435305,1.6731434567901249,0.9897690582619648,ENTRENADO,RandomForestRegressor guardado en /opt/data/calidad_aire/unidad3_modelo_principal_15_30_60/modelos_iaq/iaq_h15m
+30,30 min,86,72,14,3.2637304280477486,2.0669007242063557,0.9894555189676552,ENTRENADO,RandomForestRegressor guardado en /opt/data/calidad_aire/unidad3_modelo_principal_15_30_60/modelos_iaq/iaq_h30m
+60,1 h,56,48,8,1.0110889672574452,0.8270347309027635,0.9981161830365156,ENTRENADO,RandomForestRegressor guardado en /opt/data/calidad_aire/unidad3_modelo_principal_15_30_60/modelos_iaq/iaq_h60m

@@ -1,0 +1,4 @@
+horizonte_minutos,horizonte_texto,filas_modelo,filas_train,filas_test,rmse,mae,r2,delta_p05,delta_p95,estado,observacion
+15,15 min,101,80,21,9.578303797173715,5.983595238095238,0.9131884771046272,-80.36200000000001,35.87799999999999,ENTRENADO,Modelo anclado al IAQ actual; predice cambio futuro del IAQ.
+30,30 min,86,68,18,8.833893374542043,5.789750000000003,0.9039552491304512,-70.08449999999999,56.00349999999999,ENTRENADO,Modelo anclado al IAQ actual; predice cambio futuro del IAQ.
+60,1 h,56,44,12,7.272143399644976,2.4851666666666663,0.21706921113903133,-1.0949999999999847,1.200499999999991,ENTRENADO,Modelo anclado al IAQ actual; predice cambio futuro del IAQ.

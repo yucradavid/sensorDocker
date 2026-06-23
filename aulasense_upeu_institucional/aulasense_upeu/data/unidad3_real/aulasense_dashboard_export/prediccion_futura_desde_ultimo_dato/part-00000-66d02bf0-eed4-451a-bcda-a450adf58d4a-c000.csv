@@ -1,0 +1,4 @@
+estacion,minuto_actual,horizonte_minutos,horizonte_texto,minuto_predicho,iaq_actual,delta_predicho,delta_suavizado,iaq_predicho,eco2_actual,voc_actual,temperatura_actual,humedad_actual,estado_iaq_predicho,accion_recomendada
+Aula UPeU - Alta Afluencia,2026-06-23T06:33:00.000Z,15,15 min,2026-06-23T06:48:00.000Z,25.77,49.0,35.88,61.65,460.31,0.275,21.31,45.1,MODERADO,Ventilación preventiva
+Aula UPeU - Alta Afluencia,2026-06-23T06:33:00.000Z,30,30 min,2026-06-23T07:03:00.000Z,25.77,64.95,56.0,81.77,460.31,0.275,21.31,45.1,MODERADO,Ventilación preventiva
+Aula UPeU - Alta Afluencia,2026-06-23T06:33:00.000Z,60,1 h,2026-06-23T07:33:00.000Z,25.77,-0.26,-0.26,25.51,460.31,0.275,21.31,45.1,BUENO,Monitoreo normal del aula

@@ -1,0 +1,18 @@
+services:
+  aulasense-dashboard:
+    build: .
+    container_name: aulasense-dashboard
+    ports:
+      - "8501:8501"
+    environment:
+      - AULASENSE_DATA_DIR=/app/data/demo
+    command: streamlit run app/dashboard_streamlit.py --server.address=0.0.0.0 --server.port=8501
+
+  aulasense-api:
+    build: .
+    container_name: aulasense-api
+    ports:
+      - "8000:8000"
+    environment:
+      - AULASENSE_DATA_DIR=/app/data/demo
+    command: uvicorn app.api_fastapi:app --host 0.0.0.0 --port 8000

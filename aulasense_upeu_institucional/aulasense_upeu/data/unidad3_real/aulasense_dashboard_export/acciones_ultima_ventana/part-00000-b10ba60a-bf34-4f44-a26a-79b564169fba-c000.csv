@@ -1,0 +1,4 @@
+horizonte_minutos,horizonte_texto,minuto_base,estacion,iaq_actual,eco2_actual,voc_actual,iaq_predicho,estado_iaq_predicho,accion_recomendada,accion_por_eco2_actual
+15,15 min,2026-06-23T04:40:00.000Z,Aula UPeU - Alta Afluencia,25.77,460.31,0.27,84.93,MODERADO,Ventilación preventiva: abrir ventanas o activar ventilación suave,eCO2 en rango aceptable
+30,30 min,2026-06-23T04:40:00.000Z,Aula UPeU - Alta Afluencia,25.77,460.31,0.27,100.25,RIESGO_MEDIO,Encender purificador o extractor de aire,eCO2 en rango aceptable
+60,1 h,2026-06-23T04:40:00.000Z,Aula UPeU - Alta Afluencia,25.77,460.31,0.27,31.08,BUENO,Monitoreo normal del aula,eCO2 en rango aceptable
